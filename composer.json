@@ -1,6 +1,6 @@
 {
   "require": {
-    "drush/drush": "dev-master",
+    "drush/drush": "6.*",
     "squizlabs/php_codesniffer": "dev-master",
     "evert/phpdoc-md": "dev-master",
     "phploc/phploc": "2.1.*@dev",
