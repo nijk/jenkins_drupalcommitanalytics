@@ -14,7 +14,7 @@
     </userRemoteConfigs>
     <branches>
       <hudson.plugins.git.BranchSpec>
-        <name>rcplondon-proto</name>
+        <name>*/BRANCH_NAME</name>
       </hudson.plugins.git.BranchSpec>
     </branches>
     <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
@@ -42,7 +42,7 @@
   <builders>
     <hudson.tasks.Shell>
       <command>export PATH="$HOME/.composer/vendor/bin:$PATH"
-      cd rcp-d7/site
+      cd DIR
       drush drake check-php output-dir=$JENKINS_HOME/workspace/$JOB_NAME/build/logs --file=$JENKINS_HOME/drake_ci/drakefile.php --verbose</command>
     </hudson.tasks.Shell>
   </builders>
