@@ -1,5 +1,6 @@
 {
   "require": {
+    "blar/dom": "dev-master",
     "drush/drush": "dev-master",
     "squizlabs/php_codesniffer": "dev-master",
     "evert/phpdoc-md": "dev-master",
