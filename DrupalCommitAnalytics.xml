@@ -41,8 +41,9 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>cd rcp-d7/site
-drush drake check-php output-dir=../../build/logs --file=../../drake_ci/drakefile.php</command>
+      <command>export PATH="$HOME/.composer/vendor/bin:$PATH"
+      cd rcp-d7/site
+      drush drake check-php output-dir=$JENKINS_HOME/workspace/$JOB_NAME/build/logs --file=$JENKINS_HOME/drake_ci/drakefile.php --verbose</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
