@@ -5,6 +5,13 @@
 **Install these dependencies before beginning the installation process**
 
 * [Jenkins](http://jenkins-ci.org/)
+  * [Git plugin](https://wiki.jenkins-ci.org/display/JENKINS/Git+Plugin)
+  * [Checkstyle plugin](https://wiki.jenkins-ci.org/display/JENKINS/Checkstyle+Plugin)
+  * [DRY plugin](https://wiki.jenkins-ci.org/display/JENKINS/DRY+Plugin)
+  * [Plot plugin](https://wiki.jenkins-ci.org/display/JENKINS/Plot+Plugin)
+  * [PMD plugin](https://wiki.jenkins-ci.org/display/JENKINS/PMD+Plugin)
+  * [Analysis collector plugin](https://wiki.jenkins-ci.org/display/JENKINS/Analysis+Collector+Plugin)
+
 * [Jenkins CLI](http://yourserver.com/cli)
 * PHP 5.3 +
 * PHP XML
