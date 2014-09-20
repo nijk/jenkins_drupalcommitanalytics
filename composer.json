@@ -1,0 +1,9 @@
+{
+  "require": {
+    "drush/drush": "dev-master",
+    "squizlabs/php_codesniffer": "dev-master",
+    "evert/phpdoc-md": "dev-master",
+    "phploc/phploc": "2.1.*@dev",
+    "sebastian/phpcpd": "2.0.*@dev"
+  }
+}
