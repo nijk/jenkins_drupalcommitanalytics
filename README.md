@@ -17,3 +17,10 @@ Copy the composer.json file to ~/.composer so that the composer packages can be 
 
 Configure system to recognise where Drush lives:
 ```ln -s /path/to/drush/drush /usr/bin/drush```
+
+Download Drupal Coder module & create symlink to it in PHP_Codesniffer standards
+```
+git clone --branch 7.x-2.x http://git.drupal.org/project/coder.git
+ln -s ~/coder/coder_sniffer/Drupal/ ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Drupal
+```
+
