@@ -27,6 +27,7 @@ ln -s ~/coder/coder_sniffer/Drupal/ ~/.composer/vendor/squizlabs/php_codesniffer
 ## Import the Jenkins Job
 
 ```java -jar jenkins-cli.jar -s http://JENKINS_URL:8080 create-job JOB_NAME < DrupalCommitAnalytics.xml
+
 mkdir /var/lib/jenkins/workspace/JOB_NAME/build```
 
 ## Issues I encountered
