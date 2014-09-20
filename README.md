@@ -56,7 +56,7 @@ drush dl drush_drake
 ```
 cd /var/lib/jenkins/workspace/JOB_NAME
 git clone https://github.com/reload/drake_ci
-
+```
 
 ## Issues encountered
 1. Jenkins doesn't seem to run .bashrc when it executes jobs, as a result I found that it was necessary to set $PATH vars in jenkins
