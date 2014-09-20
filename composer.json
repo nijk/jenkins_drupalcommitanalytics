@@ -5,7 +5,7 @@
     "evert/phpdoc-md": "dev-master",
     "phploc/phploc": "2.1.*@dev",
     "sebastian/phpcpd": "2.0.*@dev",
-    "pear/Console_Color": ">=0.0.4",
+    "pear/Console_Color": "0.0.4",
     "symfony/event-dispatcher": "*",
     "psr/log": "*"
   }
