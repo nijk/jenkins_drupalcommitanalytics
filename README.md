@@ -22,16 +22,16 @@
 ## Installation
 
 ### Setup
-1. Backup the global composer.json, then copy the version from this repo to ~/.composer so that the composer packages can be installed globally for the user. It may be necessary to merge the two files if you are already managing composer dependencies globally
+Backup the global composer.json, then copy the version from this repo to ~/.composer so that the composer packages can be installed globally for the user. It may be necessary to merge the two files if you are already managing composer dependencies globally
 ```
 cp ~/.composer/composer.json ~/.composer/composer.json.backup
 cp composer.json ~/.composer
 ```
-2. Run the install process
+Run the install process
 ```
 cd ~/.composer && composer global install
 ```
-3. Configure system to recognise where Drush lives:
+Configure system to recognise where Drush lives:
 ```
 ln -s /path/to/drush/drush /usr/bin/drush
 ```
@@ -55,11 +55,11 @@ mkdir /var/lib/jenkins/workspace/JOB_NAME/build
 ```
 
 ### Install Drake
-1. Install [Drush Drake](https://www.drupal.org/project/drush_drake)
+Install [Drush Drake](https://www.drupal.org/project/drush_drake)
 ```
 drush dl drush_drake
 ```
-2. Install [Drake CI]()
+Install [Drake CI]()
 ```
 cd /var/lib/jenkins/workspace/JOB_NAME
 git clone https://github.com/reload/drake_ci
