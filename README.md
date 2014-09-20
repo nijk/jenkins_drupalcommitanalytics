@@ -15,4 +15,5 @@
 
 Copy the composer.json file to ~/.composer so that the composer packages can be installed globally for the user.
 
-Configure system to [recognise where Drush lives](https://github.com/drush-ops/drush#install---manual)
+Configure system to recognise where Drush lives:
+```ln -s /path/to/drush/drush /usr/bin/drush```
