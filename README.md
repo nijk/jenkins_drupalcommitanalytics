@@ -21,6 +21,8 @@
 3. Download Drupal Coder module & create symlink to it in PHP_Codesniffer standards
 ```
 git clone --branch 7.x-2.x http://git.drupal.org/project/coder.git
+```
+```
 ln -s ~/coder/coder_sniffer/Drupal/ ~/.composer/vendor/squizlabs/php_codesniffer/CodeSniffer/Standards/Drupal
 ```
 
@@ -29,6 +31,8 @@ ln -s ~/coder/coder_sniffer/Drupal/ ~/.composer/vendor/squizlabs/php_codesniffer
 Import the Jenkins job from the XML template
 ```
 java -jar jenkins-cli.jar -s http://JENKINS_URL:8080 create-job JOB_NAME < DrupalCommitAnalytics.xml
+```
+```
 mkdir /var/lib/jenkins/workspace/JOB_NAME/build
 ```
 
