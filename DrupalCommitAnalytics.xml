@@ -8,7 +8,7 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>git@bitbucket.org:siftdigital/rcp-d7.git</url>
+        <url>REPO_URL</url>
         <credentialsId>a806c041-dbcd-4dbf-a0fe-dc77ab6d9091</credentialsId>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
