@@ -50,6 +50,7 @@ Import the Jenkins job from the XML template
 ```
 java -jar jenkins-cli.jar -s http://JENKINS_URL:8080 create-job JOB_NAME < DrupalCommitAnalytics.xml
 ```
+Create a directory for the analysis results
 ```
 mkdir /var/lib/jenkins/workspace/JOB_NAME/build
 ```
