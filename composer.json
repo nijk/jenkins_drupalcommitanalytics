@@ -8,6 +8,7 @@
     "pear/Console_Color2": "0.1.2",
     "symfony/event-dispatcher": "*",
     "psr/log": "*",
-    "phing/phing": "dev-master"
+    "phing/phing": "dev-master",
+    "pear/http_request2": "dev-trunk"
   }
 }
